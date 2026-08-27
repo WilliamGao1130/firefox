@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = 'org.mozilla.fenix.benchmark'
+    namespace = 'org.bluepowerrobotics.bpfox.benchmark'
 
     compileSdk { version = release(config.compileSdkMajorVersion) { minorApiLevel = config.compileSdkMinorVersion } }
 

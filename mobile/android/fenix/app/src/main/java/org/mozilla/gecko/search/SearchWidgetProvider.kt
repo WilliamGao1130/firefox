@@ -19,20 +19,20 @@ import androidx.annotation.Dimension
 import androidx.annotation.Dimension.Companion.DP
 import androidx.annotation.VisibleForTesting
 import mozilla.components.browser.state.state.selectedOrDefaultSearchEngine
-import org.mozilla.fenix.GleanMetrics.Metrics
-import org.mozilla.fenix.HomeActivity
-import org.mozilla.fenix.IntentReceiverActivity
-import org.mozilla.fenix.R
-import org.mozilla.fenix.ext.components
-import org.mozilla.fenix.ext.isGoogleSearchEngine
-import org.mozilla.fenix.home.intent.StartSearchIntentProcessor
-import org.mozilla.fenix.iconpicker.DefaultAppIconRepository
-import org.mozilla.fenix.iconpicker.DefaultPackageManagerWrapper
-import org.mozilla.fenix.utils.IntentUtils
-import org.mozilla.fenix.utils.Settings
-import org.mozilla.fenix.widget.LensSearchActivity
-import org.mozilla.fenix.widget.VoiceSearchActivity
-import org.mozilla.fenix.widget.VoiceSearchActivity.Companion.SPEECH_PROCESSING
+import org.bluepowerrobotics.bpfox.GleanMetrics.Metrics
+import org.bluepowerrobotics.bpfox.HomeActivity
+import org.bluepowerrobotics.bpfox.IntentReceiverActivity
+import org.bluepowerrobotics.bpfox.R
+import org.bluepowerrobotics.bpfox.ext.components
+import org.bluepowerrobotics.bpfox.ext.isGoogleSearchEngine
+import org.bluepowerrobotics.bpfox.home.intent.StartSearchIntentProcessor
+import org.bluepowerrobotics.bpfox.iconpicker.DefaultAppIconRepository
+import org.bluepowerrobotics.bpfox.iconpicker.DefaultPackageManagerWrapper
+import org.bluepowerrobotics.bpfox.utils.IntentUtils
+import org.bluepowerrobotics.bpfox.utils.Settings
+import org.bluepowerrobotics.bpfox.widget.LensSearchActivity
+import org.bluepowerrobotics.bpfox.widget.VoiceSearchActivity
+import org.bluepowerrobotics.bpfox.widget.VoiceSearchActivity.Companion.SPEECH_PROCESSING
 
 class SearchWidgetProvider : AppWidgetProvider() {
     // Implementation note:

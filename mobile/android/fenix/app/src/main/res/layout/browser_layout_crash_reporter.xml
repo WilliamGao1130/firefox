@@ -4,7 +4,7 @@
   ~ file, You can obtain one at https://mozilla.org/MPL/2.0/.
   -->
 
-<org.mozilla.fenix.crashes.CrashContentView xmlns:android="http://schemas.android.com/apk/res/android"
+<org.bluepowerrobotics.bpfox.crashes.CrashContentView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/crash_reporter_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

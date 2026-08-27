@@ -18,7 +18,7 @@
             android:key="@string/pref_key_manage_search_shortcuts"
             android:title="@string/preferences_manage_search_shortcuts_2"
             android:summary="@string/preferences_manage_search_shortcuts_summary"/>
-        <org.mozilla.fenix.settings.SwitchWithCaptionPreference
+        <org.bluepowerrobotics.bpfox.settings.SwitchWithCaptionPreference
             app:iconSpaceReserved="false"
             android:defaultValue="true"
             android:key="@string/pref_key_google_lens_integration_user_enabled"

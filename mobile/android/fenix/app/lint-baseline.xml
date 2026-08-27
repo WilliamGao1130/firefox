@@ -202,7 +202,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="    &lt;org.mozilla.fenix.library.LibrarySiteItemView"
+        errorLine1="    &lt;org.bluepowerrobotics.bpfox.library.LibrarySiteItemView"
         errorLine2="     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/component_recently_closed.xml"
@@ -224,7 +224,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -235,7 +235,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -246,7 +246,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -257,7 +257,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -268,7 +268,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -279,7 +279,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="            &lt;org.mozilla.fenix.settings.deletebrowsingdata.DeleteBrowsingDataItem"
+        errorLine1="            &lt;org.bluepowerrobotics.bpfox.settings.deletebrowsingdata.DeleteBrowsingDataItem"
         errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_delete_browsing_data.xml"
@@ -290,7 +290,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"
@@ -301,7 +301,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"
@@ -312,7 +312,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"
@@ -323,7 +323,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"
@@ -334,7 +334,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"
@@ -345,7 +345,7 @@
     <issue
         id="MozMultipleConstraintLayoutsAndCustomViews"
         message="Custom views extending `ConstraintLayout` are less efficient because they cannot share other `ConstraintLayout` defined in file."
-        errorLine1="        &lt;org.mozilla.fenix.trackingprotection.TrackingProtectionCategoryItem"
+        errorLine1="        &lt;org.bluepowerrobotics.bpfox.trackingprotection.TrackingProtectionCategoryItem"
         errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/layout/fragment_tracking_protection_blocking.xml"

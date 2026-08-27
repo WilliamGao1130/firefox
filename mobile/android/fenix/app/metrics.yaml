@@ -744,7 +744,7 @@ events:
           'org.thoughtcrime.securesms', 'com.google.android.apps.dynamite',
           'com.whatsapp', 'com.tencent.mm', 'com.Slack', 'com.discord',
           'com.android.bluetooth', 'com.google.android.gms',
-          'org.mozilla.fenix.COPY_LINK_TO_CLIPBOARD
+          'org.bluepowerrobotics.bpfox.COPY_LINK_TO_CLIPBOARD
         type: string
       sent_from_firefox_enabled:
         type: boolean

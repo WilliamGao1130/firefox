@@ -10,7 +10,7 @@
     android:layout_height="match_parent"
     android:background="?scrim"
     android:fitsSystemWindows="true"
-    tools:context="org.mozilla.fenix.shortcut.CreateXiaomiShortcutFragment"
+    tools:context="org.bluepowerrobotics.bpfox.shortcut.CreateXiaomiShortcutFragment"
     tools:ignore="Overdraw">
 
     <androidx.constraintlayout.widget.ConstraintLayout

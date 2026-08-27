@@ -128,7 +128,7 @@ index c38ebb62d..3ae102d97 100644
 3. Sends the pings using this command:
 
 ```
-adb shell am start -n org.mozilla.fenix.debug/mozilla.telemetry.glean.debug.GleanDebugActivity \
+adb shell am start -n org.bluepowerrobotics.bpfox.debug/mozilla.telemetry.glean.debug.GleanDebugActivity \
  --ez logPings true \
  --es sendPing metrics \
  --es debugViewTag test-metrics-ping

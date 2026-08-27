@@ -6,7 +6,7 @@ syntax = "proto3";
 
 package proto;
 
-option java_package = "org.mozilla.fenix.settings.datastore";
+option java_package = "org.bluepowerrobotics.bpfox.settings.datastore";
 option java_multiple_files = true;
 
 // Represents the entire collection of recent searches

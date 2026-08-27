@@ -764,7 +764,7 @@
         <receiver android:name=".onboarding.WidgetPinnedReceiver"
             android:exported="true">
             <intent-filter>
-                <action android:name="org.mozilla.fenix.onboarding.WidgetPinnedReceiver.widgetPinned"/>
+                <action android:name="org.bluepowerrobotics.bpfox.onboarding.WidgetPinnedReceiver.widgetPinned"/>
             </intent-filter>
         </receiver>
 
@@ -872,37 +872,37 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="org.mozilla.fenix.components.share.SaveToPdfReceiver"
+        <receiver android:name="org.bluepowerrobotics.bpfox.components.share.SaveToPdfReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.mozilla.fenix.ACTION_SAVE_TO_PDF" />
+                <action android:name="org.bluepowerrobotics.bpfox.ACTION_SAVE_TO_PDF" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name="org.mozilla.fenix.components.share.PrintReceiver"
+        <receiver android:name="org.bluepowerrobotics.bpfox.components.share.PrintReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.mozilla.fenix.ACTION_PRINT" />
+                <action android:name="org.bluepowerrobotics.bpfox.ACTION_PRINT" />
             </intent-filter>
         </receiver>
 
         <receiver
-          android:name="org.mozilla.fenix.messaging.QAMessageNotificationWorkerReceiver"
+          android:name="org.bluepowerrobotics.bpfox.messaging.QAMessageNotificationWorkerReceiver"
           android:exported="true"
           android:enabled="true"
           android:permission="android.permission.DUMP">
           <intent-filter>
-            <action android:name="org.mozilla.fenix.TRIGGER_MESSAGE_WORKER" />
+            <action android:name="org.bluepowerrobotics.bpfox.TRIGGER_MESSAGE_WORKER" />
           </intent-filter>
         </receiver>
 
         <receiver
-          android:name="org.mozilla.fenix.experiments.QANimbusToolingReceiver"
+          android:name="org.bluepowerrobotics.bpfox.experiments.QANimbusToolingReceiver"
           android:exported="true"
           android:enabled="true"
           android:permission="android.permission.DUMP">
           <intent-filter>
-            <action android:name="org.mozilla.fenix.NIMBUS_TOOLING" />
+            <action android:name="org.bluepowerrobotics.bpfox.NIMBUS_TOOLING" />
           </intent-filter>
         </receiver>
     </application>

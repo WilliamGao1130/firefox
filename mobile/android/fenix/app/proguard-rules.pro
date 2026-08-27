@@ -27,4 +27,4 @@
 -keep class mozilla.appservices.** { *; }
 
 # Keep code generated from Glean Metrics
--keep class org.mozilla.fenix.GleanMetrics.** {  *; }
+-keep class org.bluepowerrobotics.bpfox.GleanMetrics.** {  *; }

@@ -6,15 +6,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <org.mozilla.fenix.settings.RadioButtonPreference
+    <org.bluepowerrobotics.bpfox.settings.RadioButtonPreference
         android:key="@string/pref_key_remote_settings_server_prod"
         android:title="@string/preferences_remote_settings_server_prod_label" />
 
-    <org.mozilla.fenix.settings.RadioButtonPreference
+    <org.bluepowerrobotics.bpfox.settings.RadioButtonPreference
         android:key="@string/pref_key_remote_settings_server_stage"
         android:title="@string/preferences_remote_settings_server_stage_label" />
 
-    <org.mozilla.fenix.settings.RadioButtonPreference
+    <org.bluepowerrobotics.bpfox.settings.RadioButtonPreference
         android:key="@string/pref_key_remote_settings_server_dev"
         android:title="@string/preferences_remote_settings_server_dev_label" />
 

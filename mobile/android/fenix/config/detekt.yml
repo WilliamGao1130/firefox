@@ -833,7 +833,7 @@ acorn-detekt-rules:
   AcornThemeUsage:
     active: true
     excludes: ['**/theme/FirefoxTheme.kt']
-    appThemeName: 'org.mozilla.fenix.theme.FirefoxTheme'
+    appThemeName: 'org.bluepowerrobotics.bpfox.theme.FirefoxTheme'
   MaterialButtonUsage:
     active: true
   MaterialOutlinedButtonUsage:
@@ -844,4 +844,4 @@ acorn-detekt-rules:
     active: true
   MaterialTypographyUsage:
     active: true
-    appTypographyName: 'org.mozilla.fenix.theme.FirefoxTheme.typography'
+    appTypographyName: 'org.bluepowerrobotics.bpfox.theme.FirefoxTheme.typography'

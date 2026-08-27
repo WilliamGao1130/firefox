@@ -19,11 +19,11 @@
         app:isPreferenceVisible="false"
         android:layout="@layout/preference_category_no_icon_style">
 
-        <org.mozilla.fenix.settings.account.AccountPreference
+        <org.bluepowerrobotics.bpfox.settings.account.AccountPreference
             android:icon="@drawable/mozac_ic_avatar_circle_24"
             android:key="@string/pref_key_account" />
 
-        <org.mozilla.fenix.settings.account.AccountAuthErrorPreference
+        <org.bluepowerrobotics.bpfox.settings.account.AccountAuthErrorPreference
             android:icon="@drawable/ic_account_warning"
             android:key="@string/pref_key_account_auth_error" />
     </androidx.preference.PreferenceCategory>
@@ -107,7 +107,7 @@
             app:isPreferenceVisible="false"
             android:title="@string/preferences_import_bookmarks" />
 
-        <org.mozilla.fenix.settings.DefaultBrowserPreference
+        <org.bluepowerrobotics.bpfox.settings.DefaultBrowserPreference
             android:key="@string/pref_key_make_default_browser"
             app:iconSpaceReserved="false"
             android:title="@string/preferences_set_as_default_browser" />
@@ -123,7 +123,7 @@
             app:iconSpaceReserved="false"
             android:title="@string/preferences_private_browsing_options" />
 
-        <org.mozilla.fenix.settings.IPProtectionPreference
+        <org.bluepowerrobotics.bpfox.settings.IPProtectionPreference
             android:key="@string/pref_key_ip_protection_settings"
             app:iconSpaceReserved="false"
             app:isPreferenceVisible="false"

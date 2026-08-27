@@ -21,7 +21,7 @@ The message is documented below in more detail of what is sent in each HTTP requ
 #### Request
 
 ```
-bundle_id:               org.mozilla.fenix
+bundle_id:               org.bluepowerrobotics.bpfox
 tracking_enabled:        0
 language:                en
 country:                 CA

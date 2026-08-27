@@ -39,17 +39,17 @@ To run UI tests, you can either use the built-in test runner in Android Studio o
 
 ## Gradle
 
-To run UI tests under `androidTest` using Gradle, you can utilize the `connectedDebugAndroidTest` task, which is specifically tailored for running instrumented tests on the `debug` build variant. This task is part of the Android Gradle Plugin's suite of commands that allow for the execution of tests directly from the command line. For instance, to run a specific test class, such as `org.mozilla.fenix.ui.ComposeSearchTest`, you would navigate to Fenix's root directory in the terminal and execute the following command:
+To run UI tests under `androidTest` using Gradle, you can utilize the `connectedDebugAndroidTest` task, which is specifically tailored for running instrumented tests on the `debug` build variant. This task is part of the Android Gradle Plugin's suite of commands that allow for the execution of tests directly from the command line. For instance, to run a specific test class, such as `org.bluepowerrobotics.bpfox.ui.ComposeSearchTest`, you would navigate to Fenix's root directory in the terminal and execute the following command:
 
 ```
-./gradlew connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=org.mozilla.fenix.ui.ComposeSearchTest
+./gradlew connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=org.bluepowerrobotics.bpfox.ui.ComposeSearchTest
 ```
 
 This command targets the `debug` build variant and runs only the tests within the `ComposeSearchTest` class.
 
 Similarly, to run a single test within the `ComposeSearchTest` class, you can append the test method name to the class using the `#` symbol. This syntax allows you to specify a particular test method to execute.
 
-For example, if you have a test method named `testSearchFunctionality` within `ComposeSearchTest` class, you would modify the above example to look like `org.mozilla.fenix.ui.ComposeSearchTest#testSearchFunctionality`
+For example, if you have a test method named `testSearchFunctionality` within `ComposeSearchTest` class, you would modify the above example to look like `org.bluepowerrobotics.bpfox.ui.ComposeSearchTest#testSearchFunctionality`
 
 Lastly, to run all tests in a package simply replace `.class` property with `.package` and specify a package name. This approach allows you to target a specific package for test execution, ensuring only the tests within that package are run.
 
@@ -59,8 +59,8 @@ The results of these tests can be found in the `app/build/reports` directory, wh
 
 To run UI tests directly in Android Studio, you can follow a straightforward process that leverages the IDE’s built-in test runner. This method allows you to execute tests directly from the Project window, providing a convenient way to run individual tests or groups of tests without leaving the development environment.
 
-1. **Open the Project Window**: On the left side of Android Studio, you’ll find the Project window. This window displays the structure of Fenix, including the `src/androidTest/java/org.mozilla.fenix/ui` directory where UI tests are located.
-2. **Navigate to the target test Class**: In the Project window, navigate to the `src/androidTest/java/org.mozilla.fenix.ui` directory. Here you will find all test classes.
+1. **Open the Project Window**: On the left side of Android Studio, you’ll find the Project window. This window displays the structure of Fenix, including the `src/androidTest/java/org.bluepowerrobotics.bpfox/ui` directory where UI tests are located.
+2. **Navigate to the target test Class**: In the Project window, navigate to the `src/androidTest/java/org.bluepowerrobotics.bpfox.ui` directory. Here you will find all test classes.
 3. **Run a Single Test**: To run a single test, right-click on the test class file you wish to run. From the context menu that appears, select “Run ‘ClassNameTest’”. Replace `ClassNameTest` with the actual name of your test class. Android Studio will compile your app and run the test class on the selected device or emulator.
 4. **Run All Tests in a Class**: To run all tests within a specific test class, right-click on the class file and select “Run ‘ClassNameTest”. This will execute all test methods within that class.
 5. **Run All Tests in a Package**: To run all tests within a package, right-click on the package name in the Project window and select “Run Tests”. This will execute all test classes within the selected package.

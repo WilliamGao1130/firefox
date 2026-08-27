@@ -10,7 +10,7 @@ plugins {
 }
 
 android {
-    namespace 'org.mozilla.fenix.longfox'
+    namespace 'org.bluepowerrobotics.bpfox.longfox'
     compileSdk {
         version = release(config.compileSdkMajorVersion) { minorApiLevel = config.compileSdkMinorVersion }
     }
