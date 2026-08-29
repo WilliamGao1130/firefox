@@ -38,6 +38,8 @@ import kotlinx.coroutines.launch
 import mozilla.components.compose.base.LinkText
 import mozilla.components.compose.base.LinkTextState
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.lib.crash.store.CrashReportOption
 import mozilla.components.lib.state.ext.observeAsComposableState
 import org.bluepowerrobotics.bpfox.R
@@ -50,8 +52,6 @@ import org.bluepowerrobotics.bpfox.settings.settingssearch.PreferenceFileInforma
 import org.bluepowerrobotics.bpfox.settings.settingssearch.SettingsSearchItem
 import org.bluepowerrobotics.bpfox.settings.settingssearch.SettingsSearchProvider
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private enum class DataChoicesSectionKey {
     TECHNICAL_DATA,

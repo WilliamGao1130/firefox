@@ -45,6 +45,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.feature.addons.Addon
 import mozilla.components.feature.addons.ui.displayName
 import mozilla.components.feature.addons.ui.summary
@@ -61,10 +65,6 @@ import org.bluepowerrobotics.bpfox.components.menu.compose.header.MozillaAccount
 import org.bluepowerrobotics.bpfox.components.menu.store.IPProtectionMenuState
 import org.bluepowerrobotics.bpfox.components.menu.store.WebExtensionMenuItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * Wrapper column containing the main menu items.

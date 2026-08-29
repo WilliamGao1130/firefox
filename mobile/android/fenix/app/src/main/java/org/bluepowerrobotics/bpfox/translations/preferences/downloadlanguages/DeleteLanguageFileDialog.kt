@@ -13,12 +13,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import java.util.Locale
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.downloads.DefaultFileSizeFormatter
 import mozilla.components.feature.downloads.FileSizeFormatter
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Download Languages Delete Dialog.

@@ -24,11 +24,11 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.theme.information
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** A [ComposePreference] for the built-in VPN (IP Protection) settings entry. */
 class IPProtectionPreference

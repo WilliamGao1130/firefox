@@ -43,6 +43,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import mozilla.components.ExperimentalAndroidComponentsApi
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.ipprotection.store.state.Country
 import mozilla.components.feature.ipprotection.store.state.Location
 import mozilla.components.feature.ipprotection.store.state.Recommended
@@ -51,8 +53,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.menu.compose.MenuGroup
 import org.bluepowerrobotics.bpfox.components.menu.compose.MenuTextItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * The IP Protection location selection screen.

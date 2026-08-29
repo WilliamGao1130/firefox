@@ -8,6 +8,7 @@ import androidx.compose.ui.test.junit4.v2.createComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import io.mockk.every
 import io.mockk.mockk
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Rule
@@ -16,7 +17,6 @@ import org.junit.runner.RunWith
 import org.bluepowerrobotics.bpfox.components.appstate.AppState
 import org.bluepowerrobotics.bpfox.home.fake.FakeHomepagePreview
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.utils.Settings
 
 @RunWith(AndroidJUnit4::class)

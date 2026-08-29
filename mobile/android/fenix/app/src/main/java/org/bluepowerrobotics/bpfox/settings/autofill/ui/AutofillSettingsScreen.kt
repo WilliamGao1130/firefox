@@ -29,6 +29,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.concept.storage.Address
 import mozilla.components.concept.storage.CreditCard
 import mozilla.components.service.fxa.manager.FxaAccountManager
@@ -43,8 +45,6 @@ import org.bluepowerrobotics.bpfox.debugsettings.addresses.FakeCreditCardsAddres
 import org.bluepowerrobotics.bpfox.debugsettings.addresses.FakeCreditCardsAddressesStorage.Companion.toCreditCard
 import org.bluepowerrobotics.bpfox.debugsettings.addresses.generateFakeAddressForLangTag
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 @Composable
 internal fun AutofillSettingsScreen(

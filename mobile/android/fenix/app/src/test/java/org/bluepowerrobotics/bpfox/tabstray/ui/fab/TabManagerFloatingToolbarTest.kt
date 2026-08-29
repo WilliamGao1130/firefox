@@ -14,6 +14,7 @@ import androidx.compose.ui.test.performClick
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import mozilla.components.browser.state.state.createTab
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.theme.acornDarkColorScheme
 import mozilla.components.compose.base.theme.acornLightColorScheme
 import mozilla.components.compose.base.theme.acornPrivateColorScheme
@@ -31,7 +32,6 @@ import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState.Mode
 import org.bluepowerrobotics.bpfox.tabstray.redux.store.TabsTrayStore
 import org.bluepowerrobotics.bpfox.tabstray.syncedtabs.SyncedTabsListItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class TabManagerFloatingToolbarTest {

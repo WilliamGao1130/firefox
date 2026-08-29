@@ -54,11 +54,11 @@ import androidx.core.graphics.createBitmap
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.modifier.debouncedClickable
 import mozilla.components.compose.base.modifier.thenConditional
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.ClickableSubstringLink
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.wallpapers.Wallpaper
 
 /**

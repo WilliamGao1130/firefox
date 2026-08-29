@@ -9,13 +9,13 @@ import androidx.compose.ui.test.junit4.v2.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.bluepowerrobotics.bpfox.pdf.PdfToolsTestTag
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class PdfToolsTest {

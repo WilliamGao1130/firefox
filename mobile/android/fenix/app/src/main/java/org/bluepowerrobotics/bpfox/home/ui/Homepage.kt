@@ -45,6 +45,7 @@ import kotlin.collections.mapNotNullTo
 import kotlin.collections.orEmpty
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.top.sites.TopSite
 import mozilla.components.support.ktx.android.net.hostWithoutCommonPrefixes
 import mozilla.telemetry.glean.private.NoExtras
@@ -106,7 +107,6 @@ import org.bluepowerrobotics.bpfox.home.topsites.ui.AddShortcutBottomSheet
 import org.bluepowerrobotics.bpfox.home.topsites.ui.AddShortcutDialog
 import org.bluepowerrobotics.bpfox.home.ui.HomepageTestTag.HOMEPAGE
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.trackingprotection.TrackersBlockedCard
 import org.bluepowerrobotics.bpfox.utils.isLargeScreenSize
 import org.bluepowerrobotics.bpfox.wallpapers.WallpaperTheme

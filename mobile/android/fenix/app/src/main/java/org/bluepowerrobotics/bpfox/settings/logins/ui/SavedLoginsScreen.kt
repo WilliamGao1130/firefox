@@ -60,6 +60,8 @@ import mozilla.components.compose.base.menu.DropdownMenu
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.support.ktx.kotlin.trimmed
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
@@ -68,8 +70,6 @@ import org.bluepowerrobotics.bpfox.compose.list.SelectableFaviconListItem
 import org.bluepowerrobotics.bpfox.settings.biometric.ui.SecureScreen
 import org.bluepowerrobotics.bpfox.settings.logins.ui.LoginsSortOrder.Alphabetical.isGuidToDelete
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * The UI host for the Saved Logins list screen and related sub screens.

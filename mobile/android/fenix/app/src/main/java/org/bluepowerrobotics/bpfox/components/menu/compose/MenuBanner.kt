@@ -33,11 +33,11 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * A full-width banner shown in the menu prompting the user to set Firefox as their default browser.

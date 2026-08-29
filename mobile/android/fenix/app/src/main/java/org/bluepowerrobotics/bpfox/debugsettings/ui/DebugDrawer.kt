@@ -29,12 +29,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.debugsettings.navigation.DebugDrawerDestination
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * The debug drawer UI.

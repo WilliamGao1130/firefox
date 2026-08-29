@@ -7,6 +7,7 @@ import androidx.compose.ui.test.DarkMode
 import androidx.compose.ui.test.DeviceConfigurationOverride
 import androidx.compose.ui.test.junit4.v2.createComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Assert.assertEquals
 import org.junit.Rule
 import org.junit.Test
@@ -14,7 +15,6 @@ import org.junit.runner.RunWith
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.Page
 import org.bluepowerrobotics.bpfox.tabstray.ui.theme.TabManagerThemeProvider
 import org.bluepowerrobotics.bpfox.theme.DefaultThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class TabManagerThemeProviderTest {

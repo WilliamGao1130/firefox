@@ -23,12 +23,12 @@ import androidx.compose.ui.unit.dp
 import java.util.Locale
 import mozilla.components.compose.base.InfoCard
 import mozilla.components.compose.base.InfoType
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.engine.translate.Language
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Automatic Translate preference screen.

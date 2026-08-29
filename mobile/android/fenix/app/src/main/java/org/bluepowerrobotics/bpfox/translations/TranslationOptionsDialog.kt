@@ -32,14 +32,14 @@ import java.util.Locale
 import mozilla.components.compose.base.InfoCard
 import mozilla.components.compose.base.InfoType
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.engine.translate.TranslationError
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.SwitchListItem
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Firefox Translation options bottom sheet dialog.

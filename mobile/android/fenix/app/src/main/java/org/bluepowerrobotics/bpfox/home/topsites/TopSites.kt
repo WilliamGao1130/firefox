@@ -54,6 +54,8 @@ import androidx.compose.ui.unit.sp
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.TextButton
 import mozilla.components.compose.base.modifier.rightClickable
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.top.sites.TopSite
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
@@ -65,8 +67,6 @@ import org.bluepowerrobotics.bpfox.home.topsites.TopSitesTestTag.TOP_SITE_CARD_F
 import org.bluepowerrobotics.bpfox.home.topsites.interactor.TopSiteInteractor
 import org.bluepowerrobotics.bpfox.home.topsites.ui.AddShortcutItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.wallpapers.WallpaperState
 
 /** The size of a top site item. */

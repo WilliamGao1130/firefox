@@ -12,6 +12,7 @@ import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performClick
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import junit.framework.TestCase.assertTrue
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.LocalUnderTest
 import org.junit.Rule
 import org.junit.Test
@@ -24,7 +25,6 @@ import org.bluepowerrobotics.bpfox.tabstray.data.TabsTrayItem
 import org.bluepowerrobotics.bpfox.tabstray.data.createTab
 import org.bluepowerrobotics.bpfox.tabstray.data.createTabGroup
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class ExpandedTabGroupTest {

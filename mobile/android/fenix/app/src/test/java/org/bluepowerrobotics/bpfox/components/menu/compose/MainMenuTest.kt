@@ -8,6 +8,7 @@ import androidx.compose.foundation.ScrollState
 import androidx.compose.ui.test.junit4.v2.createComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.service.fxa.manager.AccountState.AuthenticationProblem
 import mozilla.components.support.test.robolectric.testContext
 import org.junit.Rule
@@ -17,7 +18,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.menu.MenuAccessPoint
 import org.bluepowerrobotics.bpfox.components.menu.store.IPProtectionMenuState
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class MainMenuTest {

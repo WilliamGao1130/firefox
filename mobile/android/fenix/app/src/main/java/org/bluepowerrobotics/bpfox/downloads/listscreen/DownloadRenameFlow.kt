@@ -30,15 +30,15 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import java.io.File
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.downloads.listscreen.store.FileItem
 import org.bluepowerrobotics.bpfox.downloads.listscreen.store.RenameFileError
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * This encapsulates the flow for the renaming of a downloaded file.

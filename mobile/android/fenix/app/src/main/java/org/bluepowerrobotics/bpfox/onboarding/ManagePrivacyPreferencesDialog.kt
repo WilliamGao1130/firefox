@@ -39,12 +39,12 @@ import mozilla.components.compose.base.LinkTextState
 import mozilla.components.compose.base.Switch
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.onboarding.store.PrivacyPreferencesAction
 import org.bluepowerrobotics.bpfox.onboarding.store.PrivacyPreferencesStore
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** Dialog to manage privacy preferences during onboarding. */
 @Composable

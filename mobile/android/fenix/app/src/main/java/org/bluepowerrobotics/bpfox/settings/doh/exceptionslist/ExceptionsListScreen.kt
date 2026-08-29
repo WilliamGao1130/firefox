@@ -23,6 +23,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.DestructiveButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.FaviconListItem
@@ -30,8 +32,6 @@ import org.bluepowerrobotics.bpfox.compose.list.IconListItem
 import org.bluepowerrobotics.bpfox.settings.doh.DohSettingsState
 import org.bluepowerrobotics.bpfox.settings.doh.ProtectionLevel
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Composable function that displays the exceptions list screen of DoH settings.

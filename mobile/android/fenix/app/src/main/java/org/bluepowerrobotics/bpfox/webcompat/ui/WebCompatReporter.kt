@@ -64,14 +64,14 @@ import mozilla.components.compose.base.button.IconButton
 import mozilla.components.compose.base.button.TextButton
 import mozilla.components.compose.base.textfield.TextField
 import mozilla.components.compose.base.theme.AcornCorners
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.compose.base.theme.layout.AcornWindowSize
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.components
 import org.bluepowerrobotics.bpfox.ext.getBaseDomainUrl
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 import org.bluepowerrobotics.bpfox.webcompat.BrokenSiteReporterTestTags
 import org.bluepowerrobotics.bpfox.webcompat.BrokenSiteReporterTestTags.BROKEN_SITE_REPORTER_DESCRIPTION_INPUT
 import org.bluepowerrobotics.bpfox.webcompat.BrokenSiteReporterTestTags.BROKEN_SITE_REPORTER_INCLUDE_ETP_BLOCKED_URLS_CHECKBOX

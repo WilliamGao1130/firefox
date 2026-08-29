@@ -66,6 +66,10 @@ import mozilla.components.browser.state.action.TabListAction
 import mozilla.components.browser.state.state.createTab
 import mozilla.components.browser.state.store.BrowserStore
 import mozilla.components.compose.base.modifier.thenConditional
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.concept.engine.utils.ABOUT_HOME_URL
 import mozilla.components.feature.tabs.TabsUseCases
 import mozilla.components.ui.icons.R as iconsR
@@ -80,10 +84,6 @@ import org.bluepowerrobotics.bpfox.tabstray.browser.compose.ReorderableDragItemC
 import org.bluepowerrobotics.bpfox.tabstray.browser.compose.createListReorderState
 import org.bluepowerrobotics.bpfox.tabstray.browser.compose.detectListPressAndDrag
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 private val minTabStripItemWidth = 130.dp
 private val maxTabStripItemWidth = 280.dp

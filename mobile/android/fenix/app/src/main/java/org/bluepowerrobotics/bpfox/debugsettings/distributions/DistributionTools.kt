@@ -24,13 +24,13 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.components
 import org.bluepowerrobotics.bpfox.components.metrics.InstallReferrerHandlingService
 import org.bluepowerrobotics.bpfox.distributions.DefaultDistributionProviderChecker
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** Distribution UI for the debug drawer that displays various distribution related tools. */
 @Composable

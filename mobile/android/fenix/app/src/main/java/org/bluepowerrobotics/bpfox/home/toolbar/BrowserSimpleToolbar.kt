@@ -18,6 +18,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.inComposePreview
 import mozilla.components.compose.browser.toolbar.ActionContainer
 import mozilla.components.compose.browser.toolbar.concept.Action
@@ -37,8 +39,6 @@ import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.components.AppStore
 import org.bluepowerrobotics.bpfox.components.components
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.wallpapers.WallpaperTheme
 
 /**

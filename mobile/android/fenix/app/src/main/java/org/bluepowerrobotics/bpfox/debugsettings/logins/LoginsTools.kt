@@ -34,6 +34,8 @@ import mozilla.components.browser.state.state.BrowserState
 import mozilla.components.browser.state.state.createTab
 import mozilla.components.browser.state.store.BrowserStore
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.storage.Login
 import mozilla.components.concept.storage.LoginEntry
 import mozilla.components.concept.storage.LoginsStorage
@@ -44,8 +46,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.debugsettings.ui.DebugDrawer
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Logins UI for [DebugDrawer] that displays existing logins for the current domain and allows deleting logins or adding

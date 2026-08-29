@@ -28,12 +28,12 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.support.ktx.kotlin.tryGetHostFromUrl
 import org.bluepowerrobotics.bpfox.compose.Favicon
 import org.bluepowerrobotics.bpfox.settings.trustpanel.store.WebsiteInfoState
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val ICON_SIZE = 16.dp
 private val ICON_PADDING = 8.dp

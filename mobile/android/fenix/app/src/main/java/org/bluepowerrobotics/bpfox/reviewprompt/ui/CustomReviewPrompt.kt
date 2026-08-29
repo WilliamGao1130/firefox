@@ -41,6 +41,10 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.compose.base.theme.surfaceDimVariant
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.reviewprompt.CustomReviewPromptAction
@@ -50,10 +54,6 @@ import org.bluepowerrobotics.bpfox.reviewprompt.CustomReviewPromptState.PrePromp
 import org.bluepowerrobotics.bpfox.reviewprompt.CustomReviewPromptState.Rate
 import org.bluepowerrobotics.bpfox.reviewprompt.CustomReviewPromptStore
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * Prompt that can show either:

@@ -17,12 +17,12 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.Banner
 import mozilla.components.compose.base.BannerColors
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.service.nimbus.messaging.Message
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.home.fake.FakeHomepagePreview
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.wallpapers.WallpaperState
 
 /**

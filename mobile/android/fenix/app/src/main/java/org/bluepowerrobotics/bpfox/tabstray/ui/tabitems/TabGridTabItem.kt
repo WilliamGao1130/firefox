@@ -50,6 +50,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import mozilla.components.browser.state.state.TabSessionState
 import mozilla.components.compose.base.button.IconButton
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.concept.engine.utils.ABOUT_HOME_URL
 import mozilla.components.support.base.utils.MAX_URI_LENGTH
 import mozilla.components.ui.icons.R as iconsR
@@ -61,8 +63,6 @@ import org.bluepowerrobotics.bpfox.tabstray.browser.compose.TabItemInteractionSt
 import org.bluepowerrobotics.bpfox.tabstray.data.TabsTrayItem
 import org.bluepowerrobotics.bpfox.tabstray.data.createTab
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 private val TabHeaderFaviconSize = 12.dp
 

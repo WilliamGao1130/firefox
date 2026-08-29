@@ -12,13 +12,13 @@ import androidx.compose.ui.test.performClick
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import junit.framework.TestCase.assertTrue
 import kotlin.test.assertEquals
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.bluepowerrobotics.bpfox.tabstray.TabsTrayTestTag
 import org.bluepowerrobotics.bpfox.tabstray.data.createTabGroup
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class AddToTabGroupTest {

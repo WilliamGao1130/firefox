@@ -1004,6 +1004,13 @@ ${
       // the opener will be a secure context, i.e. no about:blank
       throw new Error("Document PiP should show its opener URL");
     }
+
+    // A load finishing behind the open view must not overwrite the value the
+    // user's selection put in the input, otherwise Enter won't pick it.
+    if (uri && !dueToTabSwitch && this.view.selectedResult) {
+      return;
+    }
+
     // We only need to update the searchModeUI on tab switch conditionally
     // as we only persist searchMode with ScotchBonnet enabled.
     if (
@@ -4319,7 +4326,7 @@ ${
     });
 
     if (element.dataset.command == "manage") {
-      this.window.openPreferences("search-locationBar");
+      this.controller.openPreferences("search-locationBar");
       return;
     }
 
@@ -4359,7 +4366,7 @@ ${
   /**
    * @typedef {object} LoadURLParams
    *   The parameters related to how and where the result will be opened.
-   *   Further supported parameters are listed in utilityOverlay.js#openUILinkIn.
+   *   Further supported parameters are listed in UrlbarChildController.mjs#loadURL.
    *
    * @property {object} [triggeringPrincipal]
    *   The principal that the action was triggered from.

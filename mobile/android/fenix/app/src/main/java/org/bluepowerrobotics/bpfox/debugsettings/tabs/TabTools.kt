@@ -42,14 +42,14 @@ import mozilla.components.browser.state.state.createTab
 import mozilla.components.browser.state.store.BrowserStore
 import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.toLocaleString
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.debugsettings.ui.DebugDrawer
 import org.bluepowerrobotics.bpfox.ext.maxActiveTime
 import org.bluepowerrobotics.bpfox.tabstray.ext.isNormalTabInactive
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @VisibleForTesting internal const val MAX_TABS_GENERATED = 1000
 

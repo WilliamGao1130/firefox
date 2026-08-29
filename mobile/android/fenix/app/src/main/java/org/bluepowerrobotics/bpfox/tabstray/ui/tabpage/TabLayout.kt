@@ -85,6 +85,9 @@ import kotlinx.coroutines.flow.first
 import mozilla.components.compose.base.RadioCheckmark
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.modifier.thenConditional
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.tabgroups.TabGroupCard
 import org.bluepowerrobotics.bpfox.tabgroups.TabGroupRow
@@ -130,9 +133,6 @@ import org.bluepowerrobotics.bpfox.tabstray.ui.tabitems.tabGridColumnCount
 import org.bluepowerrobotics.bpfox.tabstray.ui.tabitems.tabItemGroupListInteractionAnimation
 import org.bluepowerrobotics.bpfox.tabstray.ui.tabitems.tabListItemShapeStyling
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 import org.bluepowerrobotics.bpfox.trackingprotection.TrackersBlockedCard
 
 // Key for the span item at the bottom of the tray, used to make the item not reorderable.

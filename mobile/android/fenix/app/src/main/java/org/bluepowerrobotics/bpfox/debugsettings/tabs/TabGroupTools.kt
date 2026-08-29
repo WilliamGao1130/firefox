@@ -45,6 +45,8 @@ import mozilla.components.browser.state.state.createTab
 import mozilla.components.browser.state.store.BrowserStore
 import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.toLocaleString
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.debugsettings.ui.DebugDrawer
@@ -56,8 +58,6 @@ import org.bluepowerrobotics.bpfox.tabstray.data.TabGroupTheme
 import org.bluepowerrobotics.bpfox.tabstray.repository.uistate.DefaultTabManagerUiStateRepository
 import org.bluepowerrobotics.bpfox.tabstray.repository.uistate.data.PersistedUIState
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @VisibleForTesting private const val MAX_TAB_GROUPS_GENERATED = 100
 

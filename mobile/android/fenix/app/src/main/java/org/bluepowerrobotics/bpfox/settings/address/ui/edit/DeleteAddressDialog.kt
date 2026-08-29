@@ -18,6 +18,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import kotlinx.coroutines.flow.map
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.settings.address.store.AddressState
 import org.bluepowerrobotics.bpfox.settings.address.store.AddressStore
@@ -25,8 +27,6 @@ import org.bluepowerrobotics.bpfox.settings.address.store.DeleteDialogAction
 import org.bluepowerrobotics.bpfox.settings.address.store.DialogState
 import org.bluepowerrobotics.bpfox.settings.address.store.ViewAppeared
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Dialog that is presented when deleting an address.

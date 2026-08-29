@@ -22,6 +22,7 @@ import mozilla.components.browser.state.action.TabListAction
 import mozilla.components.browser.state.state.BrowserState
 import mozilla.components.browser.state.state.createTab
 import mozilla.components.browser.state.store.BrowserStore
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.support.test.robolectric.testContext
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -30,7 +31,6 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.bluepowerrobotics.bpfox.helpers.FenixGleanTestRule
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class PdfToolsContentTest {

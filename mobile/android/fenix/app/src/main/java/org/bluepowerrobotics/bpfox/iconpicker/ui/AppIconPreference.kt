@@ -25,6 +25,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import androidx.navigation.findNavController
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.GleanMetrics.CustomizationSettings
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.iconpicker.AppIcon
@@ -34,8 +36,6 @@ import org.bluepowerrobotics.bpfox.iconpicker.DefaultPackageManagerWrapper
 import org.bluepowerrobotics.bpfox.settings.ComposePreference
 import org.bluepowerrobotics.bpfox.settings.CustomizationFragmentDirections
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val IconSize = 40.dp
 

@@ -33,14 +33,14 @@ import mozilla.components.compose.base.InfoCard
 import mozilla.components.compose.base.InfoType
 import mozilla.components.compose.base.LinkText
 import mozilla.components.compose.base.LinkTextState
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.engine.translate.TranslationError
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.SwitchListItem
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.settings.SupportUtils
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.translations.TranslationSettingsScreenOption
 import org.bluepowerrobotics.bpfox.translations.TranslationSwitchItem
 

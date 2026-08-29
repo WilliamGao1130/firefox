@@ -29,12 +29,12 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.components
 import org.bluepowerrobotics.bpfox.startupCrash.StartupCrashActivity
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.utils.Settings
 
 private const val SECOND_IN_MILLISECOND = 1000L

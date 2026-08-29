@@ -25,11 +25,11 @@ import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.LinkText
 import mozilla.components.compose.base.LinkTextState
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.settings.SupportUtils
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Composable function that displays the info screen of DoH settings.

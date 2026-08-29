@@ -40,6 +40,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import java.io.File
 import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.downloads.R as downloadsR
 import mozilla.components.support.utils.ext.withExtension
 import mozilla.components.ui.icons.R as iconsR
@@ -47,8 +49,6 @@ import org.bluepowerrobotics.bpfox.compose.list.IconListItem
 import org.bluepowerrobotics.bpfox.downloads.listscreen.DownloadRenameDialogTextField
 import org.bluepowerrobotics.bpfox.downloads.listscreen.store.RenameFileError
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Composable content for the rename and change location dialog.

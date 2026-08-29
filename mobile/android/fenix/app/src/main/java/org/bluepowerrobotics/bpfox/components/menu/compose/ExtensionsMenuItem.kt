@@ -30,6 +30,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.feature.addons.Addon
 import mozilla.components.support.base.log.logger.Logger
 import mozilla.components.ui.icons.R as iconsR
@@ -39,8 +41,6 @@ import org.bluepowerrobotics.bpfox.components.menu.MenuDialogTestTag.EXTENSIONS
 import org.bluepowerrobotics.bpfox.components.menu.MenuDialogTestTag.EXTENSIONS_OPTION_CHEVRON
 import org.bluepowerrobotics.bpfox.components.menu.store.WebExtensionMenuItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 @Suppress("LongParameterList")
 @Composable

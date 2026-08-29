@@ -16,6 +16,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Assert.assertTrue
 import org.junit.Rule
 import org.junit.Test
@@ -28,7 +29,6 @@ import org.bluepowerrobotics.bpfox.tabstray.data.createTab
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState
 import org.bluepowerrobotics.bpfox.tabstray.ui.tabpage.TabLayout
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class TabGroupOnboardingItemTest {

@@ -29,6 +29,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.storage.Address
 import mozilla.components.concept.storage.CreditCardsAddressesStorage
 import mozilla.components.ui.icons.R as iconsR
@@ -37,8 +39,6 @@ import org.bluepowerrobotics.bpfox.compose.list.RadioButtonListItem
 import org.bluepowerrobotics.bpfox.compose.list.SwitchListItem
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** Addresses UI for the debug drawer that displays various addresses related tools. */
 @Composable

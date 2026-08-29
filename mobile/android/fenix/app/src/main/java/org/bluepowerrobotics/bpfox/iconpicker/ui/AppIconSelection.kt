@@ -59,6 +59,8 @@ import mozilla.components.compose.base.button.RadioButton
 import mozilla.components.compose.base.button.TextButton
 import mozilla.components.compose.base.snackbar.Snackbar
 import mozilla.components.compose.base.snackbar.displaySnackbar
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.iconpicker.AppIcon
 import org.bluepowerrobotics.bpfox.iconpicker.AppIconSnackbarState
@@ -72,8 +74,6 @@ import org.bluepowerrobotics.bpfox.iconpicker.IconGroupTitle
 import org.bluepowerrobotics.bpfox.iconpicker.SystemAction
 import org.bluepowerrobotics.bpfox.iconpicker.UserAction
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val ListItemHeight = 56.dp
 private val AppIconSize = 40.dp

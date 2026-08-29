@@ -50,6 +50,8 @@ import mozilla.components.compose.base.button.IconButton
 import mozilla.components.compose.base.menu.DropdownMenu
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.ui.icons.R as iconsR
 import mozilla.components.ui.tabcounter.TabCounter
 import org.bluepowerrobotics.bpfox.R
@@ -66,8 +68,6 @@ import org.bluepowerrobotics.bpfox.tabstray.redux.store.TabsTrayStore
 import org.bluepowerrobotics.bpfox.tabstray.syncedtabs.SyncedTabsListItem
 import org.bluepowerrobotics.bpfox.tabstray.ui.tabstray.TabsTray
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 private const val TAB_COUNT_SHOW_CFR = 6
 private val RowHeight = 48.dp

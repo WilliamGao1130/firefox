@@ -42,6 +42,8 @@ import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.modifier.thenConditional
 import mozilla.components.compose.base.text.Text as DropdownText
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.engine.autofill.AddressStructure
 import mozilla.components.concept.storage.Address
 import mozilla.components.concept.storage.UpdatableAddressFields
@@ -55,8 +57,6 @@ import org.bluepowerrobotics.bpfox.settings.address.store.SaveTapped
 import org.bluepowerrobotics.bpfox.settings.address.store.ViewAppeared
 import org.bluepowerrobotics.bpfox.settings.address.utils.generateAddress
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * The UI host for the Edit Address Screen.

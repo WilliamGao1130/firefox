@@ -27,14 +27,14 @@ import androidx.compose.ui.unit.dp
 import java.text.DateFormat
 import java.util.Date
 import mozilla.components.compose.base.BottomSheetHandle
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.protection.dashboard.TrackerCategory
 import mozilla.components.feature.protection.dashboard.TrackerProtectionDashboard
 import mozilla.components.feature.protection.dashboard.TrackersBlockedCategory
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * The trackers protections dashboard styled as a bottom sheet layout.

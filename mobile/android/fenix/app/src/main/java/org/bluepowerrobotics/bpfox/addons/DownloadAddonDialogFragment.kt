@@ -43,13 +43,13 @@ import androidx.core.graphics.drawable.toDrawable
 import androidx.fragment.compose.content
 import androidx.navigation.fragment.navArgs
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.addons.R as addonsR
 import mozilla.components.support.base.android.NoObscuredTouchesDialogFragment
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.compose.Favicon
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.theme.getThemeProvider
 
 /**

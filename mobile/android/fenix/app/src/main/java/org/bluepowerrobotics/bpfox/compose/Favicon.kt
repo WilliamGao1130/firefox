@@ -26,11 +26,11 @@ import androidx.compose.ui.unit.dp
 import mozilla.components.browser.icons.IconRequest
 import mozilla.components.browser.icons.compose.Placeholder
 import mozilla.components.browser.icons.compose.WithIcon
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.inComposePreview
 import org.bluepowerrobotics.bpfox.components.components
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 internal val FAVICON_ROUNDED_CORNER_SHAPE = RoundedCornerShape(2.dp)
 

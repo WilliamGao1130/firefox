@@ -22,6 +22,7 @@ import androidx.compose.ui.test.performTextReplacement
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import mozilla.components.compose.base.theme.Theme
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -33,7 +34,6 @@ import org.bluepowerrobotics.bpfox.tabstray.data.createTabGroup
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabGroupFormState
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.initializeTabGroupForm
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @RunWith(AndroidJUnit4::class)
 class EditTabGroupTest {

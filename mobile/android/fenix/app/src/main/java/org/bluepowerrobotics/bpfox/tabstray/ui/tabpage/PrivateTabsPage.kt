@@ -20,6 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.pbmlock.UnlockPrivateTabsTrayScreen
@@ -30,7 +31,6 @@ import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState.Mode
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState.PrivateBrowsingState
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState.TabsTrayConfig
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val EmptyPageWidth = 190.dp
 

@@ -25,6 +25,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import mozilla.components.compose.base.badge.StatusBadge
 import mozilla.components.compose.base.button.OutlinedButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.theme.success
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.debugsettings.info.DebugInfoItem
@@ -32,8 +34,6 @@ import org.bluepowerrobotics.bpfox.debugsettings.info.DebugInfoSection
 import org.bluepowerrobotics.bpfox.debugsettings.info.DebugInfoValue
 import org.bluepowerrobotics.bpfox.debugsettings.info.displayText
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 @Composable
 internal fun DebugInfoContent(

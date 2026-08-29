@@ -54,13 +54,13 @@ import mozilla.components.compose.base.button.OutlinedButton
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.settings.creditcards.ui.CreditCardEditorAction.DeleteDialogAction
 import org.bluepowerrobotics.bpfox.settings.creditcards.ui.CreditCardEditorAction.FieldChanged
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /** Weight for the expiration month dropdown. */
 private const val EXPIRATION_MONTH_WEIGHT = 5f

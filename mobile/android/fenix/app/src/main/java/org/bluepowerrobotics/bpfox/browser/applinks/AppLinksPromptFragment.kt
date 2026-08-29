@@ -58,6 +58,8 @@ import com.google.android.material.R as materialR
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.app.links.R as AppLinksR
 import mozilla.components.feature.app.links.RedirectDialogFragment
 import mozilla.components.ui.icons.R as iconsR
@@ -65,8 +67,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.components.menu.compose.ExpandableMenuItemAnimation
 import org.bluepowerrobotics.bpfox.ext.runIfFragmentIsAttached
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** Dialog fragment that prompts the user to confirm opening a link in an external app. */
 class AppLinksPromptFragment : RedirectDialogFragment() {

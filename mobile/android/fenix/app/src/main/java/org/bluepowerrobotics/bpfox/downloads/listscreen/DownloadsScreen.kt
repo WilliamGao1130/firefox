@@ -67,6 +67,8 @@ import mozilla.components.compose.base.modifier.thenConditional
 import mozilla.components.compose.base.snackbar.Snackbar
 import mozilla.components.compose.base.snackbar.displaySnackbar
 import mozilla.components.compose.base.text.Text
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.ExpandableListHeader
@@ -84,8 +86,6 @@ import org.bluepowerrobotics.bpfox.downloads.listscreen.ui.FileListItem
 import org.bluepowerrobotics.bpfox.downloads.listscreen.ui.Filters
 import org.bluepowerrobotics.bpfox.downloads.listscreen.ui.ToolbarConfig
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * Downloads screen that displays the list of downloads.

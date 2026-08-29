@@ -5,9 +5,9 @@
 package org.bluepowerrobotics.bpfox.tabstray.ui.theme
 
 import androidx.compose.runtime.Composable
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.Page
 import org.bluepowerrobotics.bpfox.theme.DefaultThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 import org.bluepowerrobotics.bpfox.theme.ThemeProvider
 
 /**

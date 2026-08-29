@@ -32,6 +32,8 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import mozilla.components.compose.base.snackbar.Snackbar
 import mozilla.components.compose.base.snackbar.displaySnackbar
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.utils.inComposePreview
 import mozilla.components.support.ktx.android.content.appName
 import mozilla.components.support.ktx.android.content.appVersionName
@@ -39,8 +41,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.debugsettings.navigation.DebugDrawerDestination
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** The navigation route for [DebugDrawerHome]. */
 const val DEBUG_DRAWER_HOME_ROUTE = "debug_drawer_home"

@@ -50,6 +50,10 @@ import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.button.IconButton
 import mozilla.components.compose.base.button.TextButton
 import mozilla.components.compose.base.modifier.thenConditional
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.compose.base.theme.layout.AcornWindowSize
 import mozilla.components.compose.base.utils.BackInvokedHandler
 import mozilla.components.ui.icons.R as iconsR
@@ -61,10 +65,6 @@ import org.bluepowerrobotics.bpfox.settings.labs.store.LabsAction
 import org.bluepowerrobotics.bpfox.settings.labs.store.LabsState
 import org.bluepowerrobotics.bpfox.settings.labs.store.LabsStore
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * Firefox Labs screen that displays a list of experimental items that can be opted into.

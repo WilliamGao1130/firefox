@@ -43,12 +43,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.OutlinedButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.perf.ApplicationExitInfoMetrics
 import org.bluepowerrobotics.bpfox.perf.ProcessExitRecord
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private const val DATE_PREFIX_LENGTH = 10
 private const val TIME_SUFFIX_LENGTH = 8

@@ -32,6 +32,8 @@ import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.SwitchListItem
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
@@ -39,8 +41,6 @@ import org.bluepowerrobotics.bpfox.debugsettings.gleandebugtools.GleanDebugTools
 import org.bluepowerrobotics.bpfox.debugsettings.gleandebugtools.GleanDebugToolsState
 import org.bluepowerrobotics.bpfox.debugsettings.gleandebugtools.GleanDebugToolsStore
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Glean Debug Tools UI that allows for glean test pings to be sent.

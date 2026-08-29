@@ -49,6 +49,8 @@ import mozilla.components.compose.base.LinkTextState
 import mozilla.components.compose.base.PromoCard
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.ai.controls.AIControllableFeature
 import mozilla.components.concept.ai.controls.isEnabled
 import org.bluepowerrobotics.bpfox.R
@@ -60,8 +62,6 @@ import org.bluepowerrobotics.bpfox.settings.settingssearch.PreferenceFileInforma
 import org.bluepowerrobotics.bpfox.settings.settingssearch.SettingsSearchItem
 import org.bluepowerrobotics.bpfox.settings.settingssearch.SettingsSearchProvider
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private const val HEADER_ITEM_COUNT = 2
 

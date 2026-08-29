@@ -70,6 +70,8 @@ import mozilla.components.compose.base.annotation.FlexibleWindowPreview
 import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.modifier.thenConditional
 import mozilla.components.compose.base.theme.AcornCorners
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.compose.base.theme.layout.AcornWindowSize.Companion.isLargeWindow
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.tabstray.TabsTrayTestTag
@@ -81,8 +83,6 @@ import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabGroupFormState
 import org.bluepowerrobotics.bpfox.tabstray.redux.state.TabsTrayState
 import org.bluepowerrobotics.bpfox.tabstray.redux.store.TabsTrayStore
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val formFieldShape: Shape
     @Composable get() = MaterialTheme.shapes.large

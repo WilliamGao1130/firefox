@@ -48,6 +48,8 @@ import mozilla.components.browser.state.action.SystemAction
 import mozilla.components.browser.state.state.selectedOrDefaultPrivateSearchEngine
 import mozilla.components.browser.state.store.BrowserStore
 import mozilla.components.browser.storage.sync.GlobalPlacesDependencyProvider
+import mozilla.components.compose.base.theme.Theme
+import mozilla.components.compose.base.theme.Theme.Private
 import mozilla.components.concept.ai.controls.isEnabled
 import mozilla.components.concept.base.crash.Breadcrumb
 import mozilla.components.concept.engine.webextension.WebExtension
@@ -138,8 +140,6 @@ import org.bluepowerrobotics.bpfox.settings.doh.DefaultDohSettingsProvider
 import org.bluepowerrobotics.bpfox.settings.doh.DohSettingsProvider
 import org.bluepowerrobotics.bpfox.startupCrash.StartupCrashActivity
 import org.bluepowerrobotics.bpfox.theme.DefaultThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
-import org.bluepowerrobotics.bpfox.theme.Theme.Private
 import org.bluepowerrobotics.bpfox.theme.ThemeProvider
 import org.bluepowerrobotics.bpfox.utils.Settings
 import org.bluepowerrobotics.bpfox.utils.isLargeScreenSize

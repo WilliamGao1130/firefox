@@ -27,10 +27,10 @@ import mozilla.components.compose.base.LinkText
 import mozilla.components.compose.base.LinkTextState
 import mozilla.components.compose.base.button.FilledButton
 import mozilla.components.compose.base.button.TextButton
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Card asking the user to allow search suggestions in private mode.

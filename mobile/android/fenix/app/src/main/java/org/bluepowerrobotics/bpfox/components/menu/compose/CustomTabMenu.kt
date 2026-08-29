@@ -33,6 +33,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import mozilla.components.browser.state.state.CustomTabMenuItem
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.feature.addons.Addon
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
@@ -43,8 +45,6 @@ import org.bluepowerrobotics.bpfox.components.menu.store.SummarizationMenuState
 import org.bluepowerrobotics.bpfox.components.menu.store.TranslationInfo
 import org.bluepowerrobotics.bpfox.components.menu.store.WebExtensionMenuItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Wrapper column containing the main menu items.

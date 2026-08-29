@@ -43,14 +43,14 @@ import androidx.compose.ui.tooling.preview.PreviewParameterProvider
 import androidx.compose.ui.unit.dp
 import mozilla.components.browser.state.state.createTab
 import mozilla.components.compose.base.annotation.FlexibleWindowPreview
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.tabstray.TabsTrayTestTag
 import org.bluepowerrobotics.bpfox.tabstray.data.TabGroupTheme
 import org.bluepowerrobotics.bpfox.tabstray.data.TabsTrayItem
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 private val NEW_TAB_GROUP_COMPONENT_HEIGHT = 40.dp
 private val NEW_TAB_GROUP_COMPONENT_WIDTH = 78.dp

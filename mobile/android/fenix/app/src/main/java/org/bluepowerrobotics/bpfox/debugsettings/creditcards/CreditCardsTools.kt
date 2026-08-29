@@ -26,6 +26,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import mozilla.components.compose.base.button.FilledButton
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.concept.storage.CreditCard
 import mozilla.components.concept.storage.CreditCardsAddressesStorage
 import mozilla.components.ui.icons.R as iconsR
@@ -33,8 +35,6 @@ import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.TextListItem
 import org.bluepowerrobotics.bpfox.debugsettings.addresses.FakeCreditCardsAddressesStorage
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /** CreditCards UI for the debug drawer that displays various creditCards related tools. */
 @Composable

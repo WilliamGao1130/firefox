@@ -36,6 +36,8 @@ import mozilla.components.compose.base.button.IconButton
 import mozilla.components.compose.base.menu.DropdownMenu
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
+import mozilla.components.compose.base.theme.ThemedValue
+import mozilla.components.compose.base.theme.ThemedValueProvider
 import mozilla.components.feature.media.R as mediaR
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
@@ -44,8 +46,6 @@ import org.bluepowerrobotics.bpfox.downloads.listscreen.DownloadsListTestTag
 import org.bluepowerrobotics.bpfox.downloads.listscreen.store.FileItem
 import org.bluepowerrobotics.bpfox.downloads.listscreen.store.TimeCategory
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.ThemedValue
-import org.bluepowerrobotics.bpfox.theme.ThemedValueProvider
 
 /**
  * [SelectableListItem] used for displaying download items on the downloads screen.

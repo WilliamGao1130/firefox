@@ -47,6 +47,8 @@ import mozilla.components.compose.base.button.TextButton
 import mozilla.components.compose.base.menu.MenuItem
 import mozilla.components.compose.base.text.Text
 import mozilla.components.compose.base.textfield.TextField
+import mozilla.components.compose.base.theme.PreviewThemeProvider
+import mozilla.components.compose.base.theme.Theme
 import mozilla.components.ui.icons.R as iconsR
 import org.bluepowerrobotics.bpfox.R
 import org.bluepowerrobotics.bpfox.compose.list.IconListItem
@@ -56,8 +58,6 @@ import org.bluepowerrobotics.bpfox.settings.doh.DohSettingsState
 import org.bluepowerrobotics.bpfox.settings.doh.ProtectionLevel
 import org.bluepowerrobotics.bpfox.settings.doh.Provider
 import org.bluepowerrobotics.bpfox.theme.FirefoxTheme
-import org.bluepowerrobotics.bpfox.theme.PreviewThemeProvider
-import org.bluepowerrobotics.bpfox.theme.Theme
 
 /**
  * Composable function that displays the root screen of DoH settings.
